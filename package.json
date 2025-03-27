@@ -1,0 +1,25 @@
+{
+  "name": "create-flask-api",
+  "version": "1.0.0",
+  "description": "CLI para iniciar projetos Flask com MongoDB, JWT, Tweepy, Pandas e análise de sentimentos",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flask",
+    "cli",
+    "api",
+    "python",
+    "starter",
+    "automação"
+  ],
+  "author": "André Leite Carvalho",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bin": {
+    "create-flask-api": "bin/index.js"
+  }
+}
