@@ -125,3 +125,21 @@ Contribuições são bem-vindas! Siga os passos abaixo:
 4. Faça o push para a branch: (`git push origin minha-feature`)
 5. Abra uma Pull Request no GitHub.
 
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para mais detalhes.
+
+
+### Ajustes e Melhorias:
+
+1. **Clareza nos comandos**: A adição de comandos explícitos para Windows e Linux/macOS no passo de execução da aplicação (`run.py`) ajuda a garantir que os desenvolvedores saibam exatamente como rodar a aplicação em diferentes sistemas operacionais.
+   
+2. **Exemplo de uso mais claro**: O exemplo de como rodar o `npx` foi melhorado, para garantir que o usuário saiba como passar os parâmetros opcionais corretamente.
+
+3. **Licença**: Se o repositório for open-source, incluir uma seção sobre a licença é uma boa prática, principalmente com a Licença MIT, que é amplamente usada. Se você já tiver um arquivo de licença, isso também é uma boa prática a ser incluída no README.
+
+4. **Padronização**: A seção de contribuições foi padronizada para seguir um fluxo claro de como contribuir com o projeto.
+
+Essas melhorias podem deixar o README mais claro e organizado para novos desenvolvedores que desejam usar ou contribuir para o seu projeto.
+
+Se precisar de mais ajustes ou tiver perguntas sobre o conteúdo do README, estou à disposição!

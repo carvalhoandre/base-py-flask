@@ -1,0 +1,31 @@
+fs.writeFileSync('docker-compose.yml', ` 
+version: '3.8'
+services:
+  flask-api:
+    build: .
+    container_name: flask-api
+    ports:
+      - "5000:5000"  
+    environment:
+      - FLASK_ENV=development
+      - MONGO_URI=mongodb://mongo:27017/tweets 
+    volumes:
+      - .:/app 
+    depends_on:
+      - mongo  
+  
+  mongo:
+    image: mongo:latest  
+    container_name: mongo
+    volumes:
+      - mongo-data:/data/db  
+    networks:
+      - flask-network  
+  
+volumes:
+  mongo-data:  
+
+networks:
+  flask-network: 
+    driver: bridge 
+`);

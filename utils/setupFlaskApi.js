@@ -60,7 +60,7 @@ module.exports = function setupFlaskApi(projectName, options = {}) {
 
   fs.writeFileSync('run.py', `from app import create_app\n\napp = create_app()\n\nif __name__ == '__main__':\n    app.run(debug=True)\n`)
 
-  fs.writeFileSync('.gitignore', `# Ambiente virtual\nvenv/\n\n# Cache do Python\n__pycache__/\n*.py[cod]\n\n# Arquivos de ambiente\n.env\n.env.*\n\n# Logs\n*.log\n\n# IDEs e editores\n.vscode/\n.idea/\n\n# Testes\n.coverage\npytest_cache/\nhtmlcov/\n`) 
+  fs.writeFileSync('.gitignore', `# Ambiente virtual\nvenv/\n\n# Cache do Python\n__pycache__/\n*.py[cod]\n\n# Arquivos de ambiente\n.env\n.env.*\n\n# Logs\n*.log\n\n# IDEs e editores\n.vscode/\n.idea/\n\n# Testes\n.coverage\npytest_cache/\nhtmlcov/\n`)
 
   fs.writeFileSync('.env.example', `SECRET_KEY=your_secret_key\nJWT_SECRET_KEY=your_jwt_secret\nMONGO_URI=mongodb://localhost:27017/tweets\n`)
 
@@ -138,4 +138,4 @@ Gerado automaticamente por script.`)
   console.log(`\n black .`)
   console.log(`\n isort `)
   console.log(`\n flaske8`)
-} 
+}
