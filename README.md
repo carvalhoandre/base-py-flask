@@ -139,7 +139,3 @@ Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE pa
 3. **Licença**: Se o repositório for open-source, incluir uma seção sobre a licença é uma boa prática, principalmente com a Licença MIT, que é amplamente usada. Se você já tiver um arquivo de licença, isso também é uma boa prática a ser incluída no README.
 
 4. **Padronização**: A seção de contribuições foi padronizada para seguir um fluxo claro de como contribuir com o projeto.
-
-Essas melhorias podem deixar o README mais claro e organizado para novos desenvolvedores que desejam usar ou contribuir para o seu projeto.
-
-Se precisar de mais ajustes ou tiver perguntas sobre o conteúdo do README, estou à disposição!
